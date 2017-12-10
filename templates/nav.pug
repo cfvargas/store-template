@@ -1,26 +1,30 @@
 nav.nav
-  ul.secundary
-    li.nav__item: a.nav__link(href="#") Contáctenos
-    li.nav__item: a.nav__link(href="#"): strong Iniciar sesión
-    li.nav__item: a.nav__link(href="#") Ventas corporativas
-    li.nav__item: a.nav__link(href="#"): i(class="fa fa-facebook-official" aria-hidden="true")
-    li.nav__item: a.nav__link(href="#"): i(class="fa fa-twitter-square" aria-hidden="true")
-    li.nav__item: a.nav__link(href="#"): i(class="fa fa-instagram" aria-hidden="true")
-    li.nav__item: a.nav__link(href="#"): i(class="fa fa-youtube" aria-hidden="true")
+  .nav__container#nav__container
+    ul.secundary
+      li.nav__item: a.nav__link(href="#") Contáctenos
+      li.nav__item: a.nav__link(href="#"): strong Iniciar sesión
+      li.nav__item: a.nav__link(href="#") Ventas corporativas
+      li.nav__item
+        a.nav__link(href="#"): i(class="fa fa-facebook-official" aria-hidden="true")
+        a.nav__link(href="#"): i(class="fa fa-twitter-square" aria-hidden="true")
+        a.nav__link(href="#"): i(class="fa fa-instagram" aria-hidden="true")
+        a.nav__link(href="#"): i(class="fa fa-youtube" aria-hidden="true")
 
-  ul.primary
-    li.nav__item: a.nav__link(href="#") marca perú
-    li.nav__item: a.nav__link(href="#") comercio exterior
-    li.nav__item: a.nav__link(href="#") turismo
-    li.nav__item: a.nav__link(href="#") gastronomia
-    li.nav__item: a.nav__link(href="#") negocios
-    li.nav__item: a.nav__link(href="#") talento
-    li.nav__item: a.nav__link(href="#")
-      i(class="fa fa-search" aria-hidden="true" id="search__button")
-      div.shopping__cart
-        i(class="fa fa-shopping-cart" aria-hidden="true" )
-        span.shopping__cart__amount 2
+    ul.primary
+      li.nav__item: a.nav__link(href="#") marca perú
+      li.nav__item: a.nav__link(href="#") comercio exterior
+      li.nav__item: a.nav__link(href="#") turismo
+      li.nav__item: a.nav__link(href="#") gastronomia
+      li.nav__item: a.nav__link(href="#") negocios
+      li.nav__item: a.nav__link(href="#") talento
+      li.nav__item: a.nav__link(href="#")
+        i(class="fa fa-search" aria-hidden="true" id="search__button")
+        div.shopping__cart
+          i(class="fa fa-shopping-cart" aria-hidden="true" )
+          span.shopping__cart__amount 2
 
-  div.search#search
-    .search__container
-      input(type="text" placeholder="Busca talentos, lugares, gastronomía y más...")
+    div.search#search
+      .search__container
+        input(type="text" placeholder="Busca talentos, lugares, gastronomía y más...")
+  .nav__icon
+    i(class="fa fa-bars" aria-hidden="true" id="nav__icon")
