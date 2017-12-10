@@ -120,6 +120,18 @@
     &:hover:not(:last-of-type) {
       color: $color-red;
     }
+    &:hover:nth-child(2) {
+      color: $color-green;
+    }
+    &:hover:nth-child(3) {
+      color: $color-blue;
+    }
+    &:hover:nth-child(4) {
+      color: $color-brown;
+    }
+    &:hover:nth-child(5) {
+      color: $color-purple;
+    }
 
     &:last-of-type .nav__link{
       display: flex;
