@@ -111,7 +111,7 @@ gulp.task('scripts', function () {
     .pipe(plumber({ errorHandler: onError }))
     .pipe(sourcemaps.init())
     .pipe(gconcat('bundle.js'))
-    .pipe(uglify())
+    // .pipe(uglify())
     .pipe(sourcemaps.write())
     .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest('build/js'))

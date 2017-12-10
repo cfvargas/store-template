@@ -16,7 +16,11 @@ nav.nav
     li.nav__item: a.nav__link(href="#") negocios
     li.nav__item: a.nav__link(href="#") talento
     li.nav__item: a.nav__link(href="#")
-      i(class="fa fa-search" aria-hidden="true")
+      i(class="fa fa-search" aria-hidden="true" id="search__button")
       div.shopping__cart
-        i(class="fa fa-shopping-cart" aria-hidden="true")
+        i(class="fa fa-shopping-cart" aria-hidden="true" )
         span.shopping__cart__amount 2
+
+  div.search#search
+    .search__container
+      input(type="text" placeholder="Busca talentos, lugares, gastronomía y más...")

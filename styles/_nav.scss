@@ -23,6 +23,7 @@
 }
 
 .secundary {
+  background-color: #fff;
   font-size: 13px;
   font-family: $font-light;
   color: $color-gray;
@@ -71,6 +72,11 @@
     .fa {
       font-size: 20px;
       margin-right: 3vw;
+      transition: .2s all;
+
+      &:active {
+        transform: scale(1.2);
+      }
     }
 
   }
@@ -93,5 +99,45 @@ $notification-size: 17px;
   border-radius: $notification-size / 2;
   background-color: red;
   color: #fff;
+}
 
+.search {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 20px;
+  width: 100%;
+  padding: 1rem;
+  z-index: -100;
+  transition: all .5s;
+}
+
+.search__container {
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+
+  input {
+    border: 2px solid $color-gray-light;
+    border-radius: 3px;
+    padding: .5rem 1rem;
+    width: 100%;
+    outline: none;
+    color: $color-gray-dark;
+    font-family: $font-light;
+    &:focus {
+      border-color: $color-green;
+    }
+  }
+}
+
+.search--show {
+  top: 99px;
+}
+
+@media screen and (min-width: 1200px) {
+  .search--show {
+    top: 88px;
+  }
 }
