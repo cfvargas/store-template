@@ -9,6 +9,10 @@ body {
   color: $color-red;
 }
 
+.marginTopSlider {
+  margin-top: 30vh;
+}
+
 @mixin btn ($bg, $tc) {
   background-color: $bg !important;
   color: $tc !important;
