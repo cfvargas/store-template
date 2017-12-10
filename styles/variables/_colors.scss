@@ -4,5 +4,5 @@ $color-blue: #0079c1;
 $color-brown: #6e3219;
 $color-purple: #7d0063;
 $color-gray: #939598;
-$color-gray-light: #EBEBEB;
-$color-gray-dark: darken($color-gray, 40%);
+$color-gray-light: darken(#f9f9f9, 2%);
+$color-gray-dark: darken($color-gray, 25%);
