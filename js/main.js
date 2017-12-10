@@ -30,6 +30,5 @@ for (let i = 0; i < navItems.length; i++) {
         e.target.nextSibling.nextSibling.classList.add('subnav--show')
       }
     }
-
   })
 }
