@@ -3,3 +3,45 @@ body {
   font-family: 'BreePeru Regular', "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: $color-gray-dark;
 }
+
+.text--red {
+  color: $color-red;
+}
+
+@mixin btn ($bg, $tc) {
+  background-color: $bg !important;
+  color: $tc !important;
+  display: inline-block !important;
+  text-decoration: none !important;
+  border: none !important;
+  border: none !important;
+  padding: .4rem 1.7rem !important;
+  box-shadow: 0 7px 15px rgba(0,0,0,.2) !important;
+}
+
+.btn--red {
+  @include btn($color-red, #fff);
+}
+.btn--green {
+  @include btn($color-green, #fff);
+}
+.btn--purple {
+  @include btn($color-purple, #fff);
+}
+.btn--blue {
+  @include btn($color-blue, #fff);
+}
+
+.btn--2x {
+  font-size: 20px;
+}
+
+.marginTop {
+  margin-top: 99px;
+}
+
+@media screen and (min-width: 1200px) {
+  .marginTop {
+    top: 88px;
+  }
+}
