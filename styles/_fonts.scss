@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'BreePeru Regular';
+  font-weight: normal;
+  src: url('fonts/BreePeru_Regular.otf');
+}
+
+@font-face {
+  font-family: 'BreePeru Light';
+  font-weight: lighter;
+  src: url('fonts/BreePeru_Light.otf');
+}
+
+@font-face {
+  font-family: 'BreePeru Bold';
+  font-weight: bold;
+  src: url('fonts/BreePeru_Bold.otf');
+}
+
+$font-normal: 'BreePeru Regular';
+$font-light: 'BreePeru Light';
+$font-bold: 'BreePeru Bold';

@@ -1,2 +1,10 @@
-@import 'base/normalize.scss'
-@import 'base/reset.scss'
+@import 'base/normalize.scss';
+@import 'base/reset.scss';
+@import 'variables/_colors.scss';
+@import '_fonts.scss';
+
+@import '_global.scss';
+
+// components
+@import '_header.scss';
+@import '_nav.scss';
