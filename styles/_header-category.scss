@@ -1,0 +1,15 @@
+.headerCategory {
+  width: 100%;
+  margin: 2rem 0;
+  background-position: center center;
+  color: #fff;
+
+  h2 {
+    padding: 1.5rem;
+    max-width: 60%;
+    text-align: center;
+    font-family: $font-light;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+}
