@@ -1,0 +1,37 @@
+.pop__up__store {
+  width: 100%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  position: relative;
+  height: 300px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &__text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 300px;
+    background-color: rgba($color-red, .9);
+    padding: 1rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h3 {
+      text-transform: uppercase;
+      text-align: center;
+      font-family: $font-light;
+      letter-spacing: 5px;
+      margin-bottom: 0;
+    }
+
+    p {
+      line-height: 1.7;
+    }
+  }
+}
