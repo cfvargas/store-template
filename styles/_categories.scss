@@ -12,6 +12,7 @@
   max-width: 400px;
   position: relative;
   overflow: hidden;
+  display: inline-block;
 
   &:hover {
     .category__image {
@@ -82,10 +83,11 @@
   color: #fff;
 }
 
-
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 600px) {
   .categories {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     padding: 0;
   }
 }
+
