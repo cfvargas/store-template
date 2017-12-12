@@ -1,0 +1,20 @@
+.login {
+  width: 100%;
+}
+
+@media screen and (min-width: 1000px) {
+  .login {
+    max-width: 450px;
+    margin-left: auto;
+
+    p {
+      margin-left: 1rem;
+      line-height: 1.7;
+    }
+  }
+
+  .data-form {
+    max-width: 700px;
+  }
+
+}
