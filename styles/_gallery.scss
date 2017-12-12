@@ -1,0 +1,40 @@
+.gallery {
+  width: 100%;
+  max-width: 700px;
+  padding: .5rem;
+  img {
+    width: 100%;
+    max-width: 100%;
+    padding: .5rem;
+  }
+}
+
+.gallery__primary {
+  width: 100%;
+}
+
+.gallery__list {
+  display: flex;
+
+  img {
+    cursor: zoom-in;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .gallery {
+    display: flex;
+  }
+
+  .gallery__primary {
+    order: 2;
+  }
+
+  .gallery__list {
+    order: 1;
+    max-width: 100px;
+    flex-direction: column;
+    max-height: 358px;
+    overflow: hidden;
+  }
+}
