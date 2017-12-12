@@ -3,6 +3,7 @@
   max-width: 1200px;
   margin: 2rem auto;
   overflow-x: scroll;
+  padding: 1rem;
 
   table {
     width: 100%;
@@ -58,8 +59,16 @@
   }
 }
 
-.products__list__total {
+.products__list__navigation {
+  padding: 2rem 0;
+  text-align: right;
+  border-bottom: 1px solid $color-gray-light;
 
+  button, a {
+    margin-left: 1rem;
+    text-transform: uppercase;
+    padding: 15px 2rem !important;
+  }
 }
 
 @media screen and (min-width: 600px) {
