@@ -58,13 +58,44 @@
   }
 }
 
+.details__history {
+  width: 100%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid $color-gray-light;
+}
+
+.details__logos {
+  width: 100%;
+  margin-left: 2rem;
+  padding: 1rem;
+  img {
+    max-width: 300px;
+  }
+}
+
 @media screen and (min-width: 700px) {
   .details {
     display: flex;
     align-items: flex-start;
   }
 
+  .details__history {
+    display: flex;
+    align-items: flex-start;
+
+    .accordion__conatiner {
+      width: 100%;
+      max-width: 700px;
+    }
+  }
+
   .details__text {
+    width: 50%;
+  }
+
+  .details__logos {
     width: 50%;
   }
 }

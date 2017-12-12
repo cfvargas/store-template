@@ -5,4 +5,10 @@ block content
   div.details
     include templates/gallery.pug
     include templates/product-details.pug
-  include templates/accordion.pug
+  div.details__history
+    include templates/accordion.pug
+    .details__logos
+      img(src="img/logos-pago.png", alt="Logos de Pago")
+
+  h2.title Recomendaciones
+  include templates/products.pug
