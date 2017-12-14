@@ -110,10 +110,10 @@
   background-color: $color-gray-light;
   text-transform: uppercase;
   justify-content: space-around;
-  font-size: 14px;
+  font-size: 13px;
 
   .nav__item {
-    padding: 3px 5px;
+    padding: 3px 3px;
     background-color: $color-gray-light;
 
     &:hover:not(:last-of-type) {
@@ -134,7 +134,7 @@
 
     .fa {
       font-size: 20px;
-      margin-right: 3vw;
+      margin-right: 1vw;
       transition: .2s all;
 
       &:active {
@@ -148,6 +148,7 @@
 .nav__buttons {
   @extend .nav__link;
   display: flex;
+
 }
 
 .shopping__cart {
