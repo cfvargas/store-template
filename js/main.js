@@ -1,11 +1,11 @@
 'use strict'
 
 // search
-const button = document.getElementById('search__button')
-const search = document.getElementById('search')
+const buttonSearch = document.getElementById('search__button')
+const searchInput = document.getElementById('search')
 
-button.addEventListener('click', () => {
-  search.classList.toggle('search--show')
+buttonSearch.addEventListener('click', () => {
+  searchInput.classList.toggle('search--show')
 })
 
 // nav

@@ -132,10 +132,6 @@
       color: $color-purple;
     }
 
-    &:last-of-type .nav__link{
-      display: flex;
-    }
-
     .fa {
       font-size: 20px;
       margin-right: 3vw;
@@ -147,6 +143,11 @@
     }
 
   }
+}
+
+.nav__buttons {
+  @extend .nav__link;
+  display: flex;
 }
 
 .shopping__cart {
@@ -199,7 +200,7 @@ $notification-size: 17px;
 }
 
 .search--show {
-  top: 99px;
+  top: 99px !important;
 }
 
 @media screen and (min-width: 1000px) {
@@ -261,6 +262,6 @@ $notification-size: 17px;
 
 @media screen and (min-width: 1200px) {
   .search--show {
-    top: 88px;
+    top: 88px !important;
   }
 }
