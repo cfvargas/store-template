@@ -4,7 +4,8 @@
   "description": "<a><img src=\"http://res.cloudinary.com/dt4qeehms/image/upload/v1494509335/logo_njvnrz.png\" height=\"300\" align=\"right\"></a>",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "setup": "gulp setup",
+    "watch": "gulp watch"
   },
   "repository": {
     "type": "git",
