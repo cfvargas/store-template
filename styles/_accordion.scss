@@ -2,26 +2,41 @@ button.accordion {
   background-color: #eee;
   color: #444;
   cursor: pointer;
-  padding: 18px;
+  padding: 10px 1rem;
   width: 100%;
   text-align: left;
   border: none;
   outline: none;
   transition: 0.4s;
+  max-width: 250px;
 }
 
-
+.accordion__buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
 button.accordion.active, button.accordion:hover {
   background-color: #ccc;
 }
 
+.accordion__text {
+  position: relative;
+}
+
 div.panel {
-  padding: 0 18px;
-  background-color: white;
   display: none;
+  padding: 0 18px;
+  background-color: darken(white, 2%);
+  position: absolute;
+  top: 0;
+  left: 0;
 
   p {
     line-height: 1.7;
     font-family: $font-light;
   }
+}
+
+.panel--show {
+  display: block !important;
 }

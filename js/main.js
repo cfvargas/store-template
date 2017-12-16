@@ -21,8 +21,8 @@ const navItems = document.getElementsByClassName('nav__item')
 const subNavs = document.getElementsByClassName('subnav')
 
 function toogleNav (e) {
-  const item = e.target.childNodes[2]
-  item.classList.toggle('subnav--show')
+  const subnav = e.target.childNodes[2]
+  subnav.classList.toggle('subnav--show')
 }
 
 for (let i = 0; i < navItems.length -2; i++) {
