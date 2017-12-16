@@ -9,6 +9,10 @@ body {
   overflow-x: hidden;
 }
 
+p {
+  line-height: 1.5;
+}
+
 .title {
   font-family: $font-light;
   font-size: 24px;
@@ -24,6 +28,18 @@ body {
   margin-top: 30vh;
 }
 
+.wrapper {
+  width: 100%;
+  padding: 1rem;
+  max-width: 1024px;
+  margin: 2rem auto;
+}
+
+.contact-us {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 @mixin btn ($bg, $tc) {
   background-color: $bg !important;
   color: $tc !important;
@@ -34,6 +50,7 @@ body {
   padding: .4rem 1.7rem !important;
   box-shadow: 0 7px 15px rgba(0,0,0,.2) !important;
   cursor: pointer;
+  border-radius: 2px;
 }
 
 .btn--red {

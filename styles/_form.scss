@@ -1,0 +1,43 @@
+.form {
+  width: 100%;
+  padding: 1rem;
+}
+
+.input__group {
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+
+  label {
+    display: block;
+    margin-bottom: 7px;
+  }
+
+  input, textarea {
+    border: 1px solid darken($color-gray-light, 10%);
+    padding: 7px;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+
+    &:focus {
+      border-color: $color-blue;
+    }
+  }
+}
+
+.form__group {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .form__group {
+    display: flex;
+
+    .input__group {
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+}
