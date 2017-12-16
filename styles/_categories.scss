@@ -60,11 +60,17 @@
 
   &:nth-child(5) {
     .category__text {
-      @extend .category--blue;
+      @extend .category--green;
     }
   }
 
   &:nth-child(6) {
+    .category__text {
+      @extend .category--blue;
+    }
+  }
+
+  &:nth-child(7) {
     .category__text {
       @extend .category--brown;
     }

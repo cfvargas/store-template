@@ -120,16 +120,25 @@
       color: $color-red;
     }
     &:hover:nth-child(2) {
-      color: $color-green;
+      color: #ffdf00;
     }
     &:hover:nth-child(3) {
-      color: $color-blue;
+      color: $color-purple;
     }
     &:hover:nth-child(4) {
-      color: $color-brown;
+      color: $color-green;
     }
     &:hover:nth-child(5) {
-      color: $color-purple;
+      color: $color-green;
+    }
+    &:hover:nth-child(6) {
+      color: $color-blue;
+    }
+    &:hover:nth-child(7) {
+      color: $color-brown;
+    }
+    &:hover:nth-child(8) {
+      color: $color-red;
     }
 
     .fa {
