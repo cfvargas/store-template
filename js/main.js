@@ -17,18 +17,15 @@ navButton.addEventListener('click', () => {
 })
 
 // subnav
-const navItems = document.getElementsByClassName('nav__link')
+const navItems = document.getElementsByClassName('nav__item')
 const subNavs = document.getElementsByClassName('subnav')
 
-for (let i = 0; i < navItems.length; i++) {
-  navItems[i].addEventListener('click', function (e) {
-    if (e.target.nextSibling.nextSibling.classList.contains('subnav--show')) {
-      e.target.nextSibling.nextSibling.classList.remove('subnav--show')
-    } else {
-      for (let i = 0; i < subNavs.length; i++) {
-        subNavs[i].classList.remove('subnav--show')
-        e.target.nextSibling.nextSibling.classList.add('subnav--show')
-      }
-    }
-  })
+function toogleNav (e) {
+  const item = e.target.childNodes[2]
+  item.classList.toggle('subnav--show')
+}
+
+for (let i = 0; i < navItems.length -2; i++) {
+  navItems[i].addEventListener('mouseenter', toogleNav)
+  navItems[i].addEventListener('mouseleave', toogleNav)
 }
