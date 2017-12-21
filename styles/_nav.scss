@@ -157,11 +157,15 @@
 .nav__buttons {
   @extend .nav__link;
   display: flex;
+  a {
+    color: inherit;
+  }
 
 }
 
 .shopping__cart {
   position: relative;
+  display: inline;
 }
 
 $notification-size: 17px;

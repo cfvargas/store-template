@@ -101,11 +101,12 @@ nav.nav
           li.subnav__item: a.subnav__link(href="#") Camapñas
           li.subnav__item: a.subnav__link(href="#") Amigos del Perú
           li.subnav__item: a.subnav__link(href="#") Noticias
-      li.nav__item: a.nav__buttons(href="#")
-        i(class="fa fa-search" aria-hidden="true" id="search__button")
-        div.shopping__cart
-          i(class="fa fa-shopping-cart" aria-hidden="true" )
-          span.shopping__cart__amount 2
+      li.nav__item
+        div.nav__buttons
+          i(class="fa fa-search" aria-hidden="true" id="search__button")
+          a.shopping__cart(href="soy-el-mejor")
+            i(class="fa fa-shopping-cart" aria-hidden="true" )
+            span.shopping__cart__amount 2
 
     div.search#search
       .search__container
