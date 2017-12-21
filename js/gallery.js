@@ -6,6 +6,6 @@ const galleryPrimary = document.getElementById('galleryPrimary')
 for (let i = 0; i < galleryList.length; i++) {
   galleryList[i].addEventListener('click', (e) => {
     const src = e.target.src
-    galleryPrimary.src = src
+    galleryPrimary.style.backgroundImage = `url(${src})`
   })
 }
