@@ -1,0 +1,28 @@
+.comments {
+  width: 100%;
+  max-width: 700px;
+  margin: 3rem auto;
+
+  .title {
+    margin-bottom: 3rem;
+  }
+}
+
+.commentary {
+  border-bottom: 1px solid rgba(#000, .1);
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.commentary__stars {
+  color: rgba(255,223,0, 1);
+}
+
+.commentary__user p {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.commentary__text p {
+  margin-top: 5px;
+}
