@@ -43,7 +43,7 @@
   display: block;
   cursor: pointer;
   color: inherit;
-  padding: 10px 0;
+  padding: 7px 0;
   text-decoration: none;
 }
 
@@ -85,6 +85,7 @@
   .nav__link {
     margin: 0 10px;
     display: inline-block;
+    padding: 5px 0;
     .fa {
       font-size: 20px;
       transition: all .1s;
