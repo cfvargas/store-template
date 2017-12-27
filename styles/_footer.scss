@@ -10,10 +10,11 @@
 
 .footer__author {
   position: absolute;
-  bottom: 1rem;
+  bottom: 0;
   left: 0;
   right: 0;
   text-align: center;
+  padding: .5rem 1rem;
 
   img {
     margin: 0 1rem;
@@ -38,6 +39,10 @@
     width: 100%;
     max-width: 200px;
   }
+}
+
+.footer__author {
+  background-color: #fff;
 }
 
 .title {
