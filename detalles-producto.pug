@@ -4,10 +4,19 @@ block content
   div.details
     include templates/gallery.pug
     include templates/product-details.pug
+
   div.details__history
     include templates/accordion.pug
     .details__logos
+      .share
+        p Compartir
+        a(href="#").share__facebook Facebook
+        a(href="#").share__twitter Twiiter
       img(src="img/logos-pago.png", alt="Logos de Pago")
+      img(src="img/logos-pago.png", alt="Logos de Pago")
+      img(src="img/logos-pago.png", alt="Logos de Pago")
+      img(src="img/logos-pago.png", alt="Logos de Pago")
+
 
   div.comments
     h2.title Comentarios de nuestros usuarios
