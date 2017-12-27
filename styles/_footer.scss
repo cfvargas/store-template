@@ -70,6 +70,35 @@
   }
 }
 
+.footer__red {
+  background-color: $color-red;
+  padding: .7rem;
+  margin-bottom: 1rem;
+  color: #fff !important;
+  text-transform: uppercase;
+  box-shadow: 0 7px 15px rgba(0,0,0,.2);
+
+  &:hover {
+    text-decoration: none !important;
+    background-color: darken($color-red, 5%);
+    cursor: pointer;
+  }
+}
+
+.footer__brown {
+  background-color: $color-brown;
+  color: #fff !important;
+  padding: .7rem;
+  text-transform: uppercase;
+  box-shadow: 0 7px 15px rgba(0,0,0,.2);
+
+  &:hover {
+    background-color: darken($color-brown, 5%);
+    text-decoration: none !important;
+    cursor: pointer;
+  }
+}
+
 @media screen and (min-width: 700px) {
   .footer {
     display: flex;
